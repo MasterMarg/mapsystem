@@ -11,7 +11,8 @@ public class LineGeometry {
     private int id;
     private String type;
     private Double[][] coordinates;
-    private String description;
+    private String size;
+    private String name;
 
     public LineGeometry() {
     }
@@ -40,11 +41,19 @@ public class LineGeometry {
         this.coordinates = coordinates;
     }
 
-    public String getDescription() {
-        return description;
+    public String getSize() {
+        return size;
     }
 
-    public void setDescription(String properties) {
-        this.description = properties;
+    public void setSize(String properties) {
+        this.size = properties;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

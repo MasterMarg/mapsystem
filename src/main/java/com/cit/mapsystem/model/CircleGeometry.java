@@ -13,7 +13,8 @@ public class CircleGeometry {
     private int id;
     private Double[] center;
     private double radius;
-    private String description;
+    private String size;
+    private String name;
 
     public CircleGeometry() {
     }
@@ -42,11 +43,19 @@ public class CircleGeometry {
         this.radius = radius;
     }
 
-    public String getDescription() {
-        return description;
+    public String getSize() {
+        return size;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
