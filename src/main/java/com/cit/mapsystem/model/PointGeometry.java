@@ -11,7 +11,7 @@ public class PointGeometry {
     private int id;
     private String type;
     private Double[] coordinates;
-    private String size;
+    private String description;
     private String name;
 
     public PointGeometry() {
@@ -41,12 +41,12 @@ public class PointGeometry {
         this.coordinates = coordinates;
     }
 
-    public String getSize() {
-        return size;
+    public String getDescription() {
+        return description;
     }
 
-    public void setSize(String size) {
-        this.size = size;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getName() {
